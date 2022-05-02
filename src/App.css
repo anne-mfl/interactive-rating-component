@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+  font-family: 'Overpass';
+}
+
+.app {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  width: 348px;
+  height: 348px;
+  background-color:#202731;
+  border-radius: 30px;
+  padding: 26px;
+}
+
+.star {
+  background-color:  #262E38;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 30px 0px;
+}
+
+li {
+  background-color: #262E38;
+  padding: 16px 22px;
+  border-radius: 50%;
+  color:hsl(217, 12%, 63%);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.one {
+  padding: 16px 24px;
+}
+
+li:hover {
+  background-color:hsl(25, 97%, 53%);
+  color: white;
+}
+
+.selected {
+ background-color: hsl(217, 12%, 63%); 
+ color: white;
+}
+
+button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+button:disabled{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor:auto;
+}
+
+.thankyou {
+  text-align: center;
+}
+
+h2 {
+  color: hsl(25, 97%, 53%);
+  background-color: #262E38;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 50px;
+  width: 60%;
+  margin: 25px auto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.receipt {
+  margin-top: 20px;
+}
+
+
+.attribution {
+  color:hsl(217, 12%, 63%);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.attribution > a {
+  color:hsl(217, 12%, 63%);
+}
