@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://anne-mfl.github.io/interactive-rating-component/)
+- [Live Site here](https://anne-mfl.github.io/interactive-rating-component/)
 
 
 ## Built with
