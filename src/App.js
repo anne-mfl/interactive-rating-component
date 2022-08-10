@@ -10,8 +10,6 @@ function App() {
 
   return (
     <div className="app">
-      <div>
-
         <section className='frame'>
           {displayThankyou === false
             ?
@@ -62,14 +60,6 @@ function App() {
             </div>
           }
         </section>
-
-        <div class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="https://www.frontendmentor.io/profile/anne-mfl">Anne</a>.
-        </div>
-
-      </div>
-
     </div >
   );
 }

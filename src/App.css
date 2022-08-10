@@ -109,14 +109,3 @@ h2 {
 .receipt {
   margin-top: 20px;
 }
-
-
-.attribution {
-  color:hsl(217, 12%, 63%);
-  text-align: center;
-  padding-top: 20px;
-}
-
-.attribution > a {
-  color:hsl(217, 12%, 63%);
-}
